@@ -37,15 +37,29 @@ Contributors: Original work by [Cameron Banga](https://twitter.com/cameronbanga)
 * Explain Handoff, and in general, how it it allows iOS and Mac/web apps to communicate?
 * What technologies/services are contained inside of iCloud?
 * What is an iOS extension? Can you list a few examples of popular/common extensions?
+[sean]iOS and OSX define several types of app extensions, each of which is tied to an aera of the system,
+      such as sharing, Notification Center, and the iOS keyboard.
 * What is HealthKit?
+[sean]HealthKit allow apps that provide health and fitness service to share their data with new Health app 
+      and with each other. A user's health information is stored in a centralized and secure location and the 
+      user decides which data should be shared with your app.
+
 * What is HomeKit?
+[sean]HomeKit is a framework for communicating with and controlling connected accessories in a user's home
+
 * What is Apple Pay? Could you describe a way we could use it in our applications?
+
 * Explain application sandboxing.
+[sean] Sandboxing your app is a great way to protect systems and users by limiting the privileges of an app
+       to its intended functionality, increasing the difficulty for malicious software to compromise your users' systems.
+
 * What is VoiceOver? Explain some of the accessibility features included in iOS and how developers can utilize them.
 * How does application multitasking work on iOS?
 * What features does Game Center offer for iOS games?
 * What are iBeacons?
 * What is Cocoa/Cocoa Touch?
+[sean]Cocoa is Apple native object-oriented api for OS X OS. Cocoa touch is a UI framework for building     
+      software programs to run on iOS.
 * Explain in general, what Core Audio, Core Data, and Core Location are, and how they help iOS apps.
 * Describe the role of SpriteKit and SceneKit.
 * What is Metal?
@@ -93,9 +107,13 @@ Contributors: Original work by [Cameron Banga](https://twitter.com/cameronbanga)
 * Describe some differences between a Storyboard and a standard NIB file.
 * What is the device status bar? How tall is it in points? Is it opaque or transparent? What does it do during a phone call or navigation?
 * What is a navigation bar? Can you show me an Apple app on your phone that uses a navigation bar?
+
 * What is a tab bar? What is a toolbar? Compare and contrast them.
+
 * What is a table view? What is a collection view?
+
 * Describe when a popover is most appropriate.
+
 * What is a split-view controller?
 * What sort of content would be appropriate to place in a picker view?
 * When are a label, text field and text view appropriate?
@@ -119,18 +137,33 @@ Contributors: Original work by [Cameron Banga](https://twitter.com/cameronbanga)
 ####[[⬆]](#contents) <a name='appstore'>App Store Questions:</a>
 
 * How do In-App Purchases work? What can be purchased with IAP?
+<a>comsumable, non-comumable, renewable, Non-renewing, auto-renewing
 * Have you ever submitted an app to the App Store? Can you explain the general process?
+
 * What is iTunes Connect?
+iTunes is a suite of web-based tools for managing contents sold on the itunes store, ibook store, and so forth.
+
 * What is a provisioning profile?
 * What is an App ID?
+[a]
+Only team agents and admins may create a Development Provisioning Profile. This profile contains a name, development certificates, device IDs, and an app ID.
+An App ID is a two-part string used to identify one or more apps from a single development team. The string consists of a Team ID and a bundle ID search string, with a period (.) separating the two parts. The Team ID is supplied by Apple and is unique to a specific development team, while the bundle ID search string is supplied by you to match either the bundle ID of a single app or a set of bundle IDs for a group of your apps.
+
 * What are the differences between Development and Production iOS signing certificates?
+
+
 * How is TestFlight used? How were UUIDs used in ad-hoc app distribution?
+If a beta app has In-App Purchases, you do not have to purchase them.
+The TestFlight app makes installing beta apps simple, with no need to keep track of UDIDs or provisioning profiles.
+
 * When do purchase receipts need to be verified?
+
 * What is required to display iAds?
 
 ####[[⬆]](#contents) <a name='fun'>Fun Questions:</a>
 
 * What's a cool thing you've coded recently? What's something you've built that you're proud of?
+
 * What are some things you like about the developer tools you use?
 * Who are some of your favorite independent Mac or iOS developers?
 * Do you have any pet projects? What kind?
